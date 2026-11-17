@@ -1,0 +1,11 @@
+{
+  "name": "next-ssr-sample-postinstall",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "start": "next start",
+    "postinstall": "sh scripts/postinstall.sh"
+  },
+  "dependencies": { "lodash": "4.17.11", "next": "15.5.28", "react": "18.3.1", "react-dom": "18.3.1" }
+}
